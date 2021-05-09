@@ -30,25 +30,31 @@
 
 .header-text h1 {
     font-size: 80px;
-    color: #c58fff;
+    color: #ffffff;
     font-family: "name";
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow:
+     1px 1px 1px rgb(3, 3, 3), 
+    3px 3px 5px rgb(8, 8, 8), 
+    3px 3px 5px rgb(8, 8, 8) 
+    3px 3px 5px rgb(8, 8, 8); 
 }
 
 
 .header-text h3 {
     letter-spacing: 0.2em;
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
     text-shadow: black 0.1em 0.1em 0.2em;
     font-family: "profession";
+    text-shadow: -1px -1px 0px #f32121, 3px 3px 0px #f32121, 6px 6px 0px #a10d0d;
+
 }
 
 .header-text .vertical-line {
     height: 5px;
-    background-color: #a9ff03;
+    background-color: #ffffff;
     width: 500px;
     margin: 0 auto;
 
@@ -74,7 +80,7 @@
 
 
 .home-full-screen {
-    background-image: url('../img/lemon.webp');
+    background-image: url('../img/header.png');
     background-color: #000;
 }
 
@@ -95,9 +101,9 @@
 
 a {
     margin-top: 15px;
-    background-color: #a9ff03;
+    background-color: #000000;
     border: none;
-    color: #000;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
@@ -107,4 +113,5 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    box-shadow: -1px -1px 0px #f32121, 3px 3px 0px #f32121, 6px 6px 0px #a10d0d;
 }
